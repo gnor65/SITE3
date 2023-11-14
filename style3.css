@@ -1,0 +1,502 @@
+/*start global*/
+*{
+   -webk-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+   box-sizing:border-box;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.contener{
+    
+    width: 1200px;
+    margin: auto;
+   
+}
+/*end global*/
+/*start navbar*/
+.navbar{
+    background-color: aquamarine;
+   font-size: 20px;
+    height: 0;
+    color: azure;
+    z-index: 3;
+    position: relative;
+}
+ul{
+  list-style: none;
+   margin: 0;
+    padding: 0;
+}
+.navbar .brand{
+   float: left;
+    width: 40%;
+    text-transform: uppercase;
+    text-shadow: 1;
+}
+.navbar  .links{
+    width: 60%;
+    float: left;
+   
+   
+    }
+.navbar  .links  li{
+ 
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px    0px;
+    text-transform: uppercase;
+    margin: 10px;
+    font-weight: bold;
+    
+    }
+.navbar  .links  li.activ{
+ 
+ color: #b30000;
+    border-bottom: 2px solid #b30000;
+  
+    
+    }
+.navbar  .links  li:hover{
+ 
+ color: #b30000;
+    border-bottom: 2px solid #b30000;
+  
+    
+    }
+.navbar  .links  li a{
+ 
+   color: azure;
+       text-decoration: none;
+    
+    }
+
+.navbar  .links  li a:hover
+,.navbar  .links  li.activ a{
+ 
+ color: #b30000;
+    
+  
+    
+    }
+
+/*end navbar*/
+/*start header*/
+.header{
+ position: relative;
+  background: url(https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_960_720.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header .overlay{
+ color: aqua;
+  background-color:rgba(0,0,0,0.3);
+   position: absolute;
+       top:0;
+    bottom: 0;
+        right:0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.header .bx-wrapper{
+    
+  box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% ;
+    text-align: center;
+}
+.header .bx-wrapper.bx-viewport{
+    
+  box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% !important;
+    
+  
+}
+.header .slider{
+    
+height: 100%;
+}
+.header .slider li{
+    
+display: block;
+    
+}
+.header .slider li h2{
+    
+color: crimson;
+    font-size: 30px;
+    
+}
+.header .slider li p{
+    
+color: indianred;
+    font-size: 20px;
+    
+}
+/*end header*/
+.services{
+    
+color: indianred;
+    font-size: 20px;
+    height: 600PX;
+    padding: 80px 20px;
+}
+.services h2{
+    
+margin: 0 0 50px;
+    
+}
+.services .item{
+ float: left;   
+width: 33.33333%;
+    
+margin-top: 10px;
+    
+    margin-bottom: 30px;
+}
+.services .item i{
+   
+color: #F1C40F ;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+.services .item .info{
+   
+color:#7FB3D5 ;
+    float: left;
+    width: 70%;
+   
+    
+}
+.services .item .info h2{
+   
+color:#154360  ;
+    font-weight: normal;
+   margin-bottom: 10px;
+   
+    
+}
+.services .item .info p{
+   margin-top: 0;
+color:#5D6D7E   ;
+    font-weight: normal;
+   font-size: 18px;
+   
+    
+}/*end srevices*/
+.our-team{
+    
+   padding: 40px 20px ;
+    
+}
+.our-team h2{
+    font-size: 40px;
+    font-weight: normal;
+   margin-bottom: 30px;
+    margin-top: 0;
+}
+.our-team .box{
+   float: left;
+   
+       
+}
+.our-team .box:first-child{
+ 
+    width:35%;
+       
+}
+
+
+.our-team .box:not(:first-child){
+
+    width: 16.25%;
+  
+  
+      
+       
+    }
+
+.our-team .box:not(:first-child)img{
+  
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+       
+}
+.our-team .box.IM img{
+  
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+       
+}
+.our-team .box p{
+   color: #154360;
+line-height: 1,3;
+ font-size: 18px;  
+    margin-top: 10px;
+}
+/*end our-team*/
+
+/*start testimonials*/
+
+.testim{
+  height: 400px;
+    background: url('swar/JkWBMt.jpg');
+    -webkit-backgrount-size:cover; 
+    -moz-backgrount-size:cover; 
+    -o-backgrount-size:cover; 
+    backgrount-size:cover; 
+    position: relative;
+    text-align: center;
+    padding: 80px 0;
+}.testim h2{
+ margin: 40px 0;
+   padding: 20PX 0 ;
+    font-size: 40px;
+}
+.testim P{
+ margin: 30px 0;
+    color: #F1C40F;
+    font-size: 20px;
+}
+
+
+
+.testim .t-overley{
+    
+position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+ height: 100%;
+    background-color: rgba(155,0,0,0.3);
+    color: #fff;
+    
+
+}
+.testim .slider2 >div{
+ display: none;
+}
+.testim .slider2 .activ{
+ display:block;
+}
+
+/*end testimonials*/
+/*start my  project*/
+
+
+.our-projects{
+    
+   padding: 60px 0;
+ 
+  
+}
+.our-projects h2{
+    
+ font-weight: normal;
+ 
+}
+.our-projects ul{
+    
+margin-top: 60px;
+
+}
+.our-projects ul li{
+    padding: 10px;
+ display: inline-block;
+    border: 0.3px solid black;
+    margin-right: 20px;
+ border-radius: 5px;
+}
+.our-projects ul li.selected{
+    background-color:   #b30000;
+    border: 0.3px solid white;
+ color: white;
+     border-radius: 5px;
+}
+.our-projects .gallery {
+   margin-top: 50px;
+    overflow: hidden;
+}
+.our-projects .gallery .row > div{
+width: 32.66666%;
+    float: left;
+    margin-bottom: 10px;
+
+    position: relative;
+    
+}
+.our-projects .gallery .row> div:nth-child(2){
+margin-left: 1%;
+   margin-right: 1%;
+    
+}
+.our-projects .gallery .row > div img{
+width: 100%;
+   
+    
+}
+.our-projects .gallery .row > div .over{
+    
+position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+ height: 100%;
+    background-color: rgba(155,0,0,0.3);
+    color: #fff;
+    text-align: center;
+    line-height: 400px;
+    font-size: 22px;
+    display: none;
+
+}
+.our-projects .gallery .row > div .heart{
+position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    display: none;
+    
+}
+.our-projects .gallery .row > div:hover  .over{
+
+    display: block;
+    
+}
+.our-projects .gallery .row > div:hover  .heart{
+
+    display: block;
+    
+}
+
+/*end my  project*/
+
+/*start my  footer*/
+.footer {
+   background-color: dimgray;
+    padding: 40px 0;
+    overflow: hidden;
+    color: white;
+    height: 400px;
+}
+
+.footer .col {
+   width: 25%;
+  float: left;
+    
+}
+.footer .col h2{
+ color: #eee;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.footer .col p{
+    margin-top: 40px;
+      margin-bottom: 40px;
+ color: #eee;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer .col i{
+ color: #ddd;
+   display: inline-block;
+  border: 0.5px solid #eee;
+    padding: 2px;
+}
+
+.footer .copyr{
+ color: #eee;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.footer  .tags span{
+    margin-top: 30px;
+    margin-bottom: 5px;
+ color: #e7e7e7;
+   display: inline-block;
+  border: 0.5px solid #eee;
+    padding: 11px;
+}
+.footer .recent >div {
+overflow: hidden;
+    margin-top: 5px;
+}
+.footer .recent >div img{
+ height: 60px;
+    width: 80px;
+    margin-right: 5px;
+    float: left;
+}
+.footer .recent div h4{
+ color: #eee;
+    font-weight: normal;
+    
+        margin:15px 0;
+   
+}
+.footer .blog ul li{
+border-bottom: 1px solid #eee;
+    font-weight: normal;
+    
+        padding:15px ;
+   
+}
+/*end my  footer*/
+
+
+
+
+
+
+
+/*start my  framework*/
+
+
+.clearfix{
+    
+   clear: both;
+}
+
+.special-heading{
+    color: #F1C40F;
+    
+   position: relative;
+}
+.special-heading:after{
+    
+   content:'';
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0;
+   width: 60px;
+    border-bottom: 2px solid #b30000;
+}
+.separator {
+  border:2px solid #F1C40F;
+    display: block;
+    margin: 40px 0;
+  
+}
+/*end my  framework*/
